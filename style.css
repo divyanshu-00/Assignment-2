@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+
+}
+h1{
+    width: fit-content;
+    margin: 10px auto;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 5px;
+}
+/* .box{ */
+    /* width: 50%; */
+        /* border: 1px solid crimson; */
+/* } */
+#one{
+    /* border: 1px solid black; */
+    width: 50%;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+   
+}
+form div label{
+width: 30%;
+padding: 0px 10px;
+}
+form div input{
+    width:auto;
+    margin: 0px 10px;
+    /* padding: 0px 1px; */
+}
+#submit
+{
+    width: 200px;
+    margin: 10px 20%;
+    /* margin: 10px 120px; */
+        /* border:1px solid green; */
+
+}
+ th, td {
+    border:1px solid black;
+    
+  }
+ #table{
+    display: none;
+  }
+  #two{
+    /* border: 1px solid yellow; */
+  }
+  #two h3{
+      width: fit-content;
+      margin: auto;
+  }
+  #table2{
+    width: fit-content;
+    margin: auto;
+  }
+  #table2 th, td{
+        width: 18rem;
+        
+  }
+  #del_td{
+    width: 2%;
+  }
